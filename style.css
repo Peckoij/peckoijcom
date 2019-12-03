@@ -1,89 +1,126 @@
 /* @Author Jon Pekkonen */
 body {
-	background-image:url(images/brushed_metal_background.jpg);
-	font-size:100%;
-    color: #bbb;
-    min-width: 300px;
+	background-image: url(images/brushed_metal_background.jpg);
+	font-size: 100%;
+	color: #bbb;
+	min-width: 300px;
+	font-family: "Arial",sans-serif;
 }
+
 #container {
-	max-width:800px;
+	max-width: 800px;
 	margin: 6rem auto;
 }
+
 /* fixed nav box at top of screen, background dark so the text stands out */
 nav {
-	position:fixed;
-	top:0;
-	max-width:800px;
-	margin:0.3rem auto;
-	width:100%;
-	background-color: rgba(0,0,0,0.85);
-	z-index:2;
+	position: fixed;
+	top: 0;
+	left:0;
+	margin: 0 auto;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 1);
+	z-index: 2;
 }
-nav li{
-	display: inline;	
+
+nav li {
+	display: inline;
 	padding: 1.5%;
 	font-size: 2rem;
 }
-nav ul{
-	margin:0.2rem auto;
+
+nav ul {
+	margin: 0.2rem auto;
 	text-align: center;
-	padding:0px;
-	min-width:295px;
+	padding: 0px;
+	min-width: 295px;
 }
+
 header h1 {
 	text-align: center;
 }
-article, section{
+
+article,
+section {
 	/*float pictures stay in boxes*/
 	overflow: auto;
 }
-article img{
-	max-width:100%;
+
+article,section img {
+	max-width: 50%;
 }
+
 .post {
-	background-color: rgba(0,0,0,0.5);
-	padding:0.1rem 1rem;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 0.1rem 1rem;
 	margin: 10px auto;
 }
+
+.sectionItem {
+	background-color: rgba(10, 10, 10, 0.5);
+	padding: 5px 5px;
+	margin: 10px auto;
+	overflow: auto;
+}
+
+.sectionItem h3{
+	margin:0px;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -2em;
+    visibility: hidden;
+}
+
 /*Float picture to left/right*/
 .picRight {
 	position: relative;
 	float: right;
 	margin: 0.5rem 0 0.5rem 1rem;
 }
+
 .picLeft {
 	position: relative;
 	float: left;
 	margin: 0.5rem 1rem 0.5rem 0;
 }
-.centerContent{
+
+.centerContent {
 	text-align: center;
 }
-footer{
+
+footer {
 	margin: 1rem auto;
 	text-align: center;
 }
+
 /* Link styles */
 a:link {
 	color: #bbb;
 	text-decoration: none;
 }
+
 a:visited {
 	color: #bbb;
 	text-decoration: none;
 }
+
 a:hover {
-	color:#fff;
+	color: #fff;
 	text-decoration: none;
 }
+
 a:active {
 	color: #fff;
 	text-decoration: none;
 }
+
 a:focus {
 	color: #fff;
 	text-decoration: none;
 }
+
 /* Style for link which is inline so it stands out */
 .inlineLink:link {
 	color: #bbb;

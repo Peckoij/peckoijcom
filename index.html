@@ -1,42 +1,149 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<title>Peckoij</title>
-<meta charset="utf-8"/>
-<meta name="description" content='My webpage Jon Pekkonen'/>
-<meta name="keywords" content="HTML,CSS,JavaScript,Jon, Pekkonen"/>
-<meta name="author" content="Jon Pekkonen"/>
-<link rel="stylesheet" type="text/css" href="style.css" title="Main style"/>
+    <title>Jon Pekkonen aka Peckoij</title>
+    <meta charset="utf-8" />
+    <meta name="description" content='My webpage Jon Pekkonen' />
+    <meta name="keywords" content="HTML,CSS,JavaScript,Jon, Pekkonen" />
+    <meta name="author" content="Jon Pekkonen" />
+    <link rel="stylesheet" type="text/css" href="style.css" title="Main style" />
 </head>
 
 <body>
-<div id="container">
-<!-- Navigation -->
-<nav>
-<ul>
-<li><a href="index.html">Etusivu</a></li>
-</ul>
-</nav>
+    <div id="container">
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#">Etusivu</a></li>
+                <li><a href="#tavoitteet_section">Tavoitteet</a></li>
+                <li><a href="#taidot_section">Taidot</a></li>
+                <li><a href="#tyokokemus_section">Työkokemus</a></li>
+                <li><a href="#koulutus_section">Koulutus</a></li>
+                <li><a href="#harrastukset_section">Harrastukset</a></li>
+            </ul>
+        </nav>
 
-<header><h1><!-- header for page -->Jon Pekkonen</h1></header>
-<!-- Actual content of page,-->
-<div id="content">
+        <div id="content">
 
-<!-- Add articles or other content. darker background: class="post" -->
-<article class="post">
-<img class="picRight" src="images/me_pic1.jpg" alt="My picture"/>
-<h2>aka Peckoij</h2>
-<p>Olen 1994 Etelä-Savossa syntynyt mies. Lapsuuden ja nuoruuden asuin Kuortin kylässä Pertunmaalla. Peruskoulun jälkeen menin lukioon Heinolaan, josta kirjoitin ylioppilaaksi keväällä 2013. Lukion jälkeen työsketelin isän metallialan yrityksessä loppu vuoden, jonka jälkeen aloitin varusmiespalveluksen. Vuotta myöhemmin jatkoin töitä perheyrityksessä opintojen alkua odotellessa. </p>
-<p>Syksyllä 2015 aloitin fysiikan opinnot Jyväskylän yliopistossa. Viihdyin yliopistossa yhden lukuvuoden, jonka jälkeen siirryin Jyväskylän ammattikorkeakouluun opiskelemaan tietojenkäsittelyn tradenomiksi. Nämä sivut joita juuri luet on toteutettu tradenomi opintojen loppuvaiheessa osana näyteportfoliota.</p>
-</article>
+            <!-- Add sections or other content. darker background: class="post" -->
+            <section class="post">
+                <img class="picRight" src="images/me_pic1.jpg" alt="My picture" />
+                <h2>Jon Pekkonen</h2>
+                <h3>aka Peckoij</h3>
+                <p>Olen 1994 Etelä-Savossa syntynyt mies. Lapsuuden ja nuoruuden asuin Kuortin kylässä Pertunmaalla.
+                    Peruskoulun jälkeen menin lukioon Heinolaan, josta kirjoitin ylioppilaaksi keväällä 2013. Lukion
+                    jälkeen työsketelin isän metallialan yrityksessä loppu vuoden, jonka jälkeen aloitin
+                    varusmiespalveluksen. Vuotta myöhemmin jatkoin töitä perheyrityksessä opintojen alkua odotellessa.
+                </p>
+                <p>Syksyllä 2015 aloitin fysiikan opinnot Jyväskylän yliopistossa. Opiskelin yliopistossa yhden
+                    lukuvuoden, jonka jälkeen siirryin Jyväskylän ammattikorkeakouluun opiskelemaan tietojenkäsittelyn
+                    tradenomiksi. Nämä sivut joita juuri luet on toteutettu tradenomi opintojeni loppuvaiheessa osana
+                    näyteportfoliota.</p>
+                <h3></h3>
 
-</div>
-<footer>
-<!-- Footer... -->
-<p>&copy; copyright by Jon Pekkonen</p>
-<p>Päivitetty: 2019-11-30 </p>
-</footer>
-</div>
+            </section>
+
+            <section class="post">
+                <a class="anchor" id="tavoitteet_section"></a>
+                <h2>Tavoitteet</h2>
+                <p>Etsin harjoittelu ja työpaikkaa jossa voisin kehittää taitojani projekteissa työskennellen.
+                    Erityisesti etsin työpaikkaa web-sovelluskehityksen alalta. Itselleni tuttuja kehyksiä ovat Angular
+                    ja Ionic.
+
+                </p>
+            </section>
+            <section class="post">
+                <a class="anchor" id="taidot_section"></a>
+                <h2>Taidot</h2>
+                <div class="sectionItem">
+                    <h3>Kielitaidot</h3>
+                    <p>Äidinkieli Suomi, puhun ja kirjoitan englantia melko sujuvasti ja ymmärrettävästi. Osaan jonkin
+                        verran ruotsia, mutta se ei ole vahvuuteni.</p>
+                    <p>Alan kielistä kokemusta löytyy perusteiden verran Javaan ja C#:iin. Enemmän kokemusta löytyy
+                        javascriptin puolelta, erityisesti Angular ja Node.js kehityksestä. </p>
+                </div>
+                <div class="sectionItem">
+                    <a href="https://magicworms.netlify.com">
+                        <img class="picLeft" src="images/magicworms.png"
+                            alt="Kuvankaappaus sivusta magicworms.netlify.com" />
+                    </a>
+                    <h3>HTML ja CSS</h3>
+                    <p>Tein osana opintojani kotisivut asiakkaan kehittämälle tuotteelle "Maagiset madot".
+                        Sivut toteutettiin yhteistyössä asiakkaan, Kauko Sihvosen, kanssa hänen toiveidensa ja
+                        tarpeidensa mukaan hyödyntäen omaa asiantuntemustani toteutuksessa. Sivut ja niiden ulkoasu
+                        sunniteltiin yhdessä asiakkaan kanssa.
+                        Projekti antaa hyvän kuvan perustaidoistani HTML5:n ja CSS3:n saralla.
+
+                    </p>
+                    <p>Kuvaa klikkaamalla pääsee kyseisille sivuille, alla olevasta linkkistä
+                        projektin git repositoryyn.
+                    </p>
+                    <a href="https://github.com/Peckoij/magicwormshomepage">=> Maagiset madot projektin git repo</a>
+                </div>
+                <div class="sectionItem">
+                    <h3>Node.js ja Angular7</h3>
+                    <p></p>
+                </div>
+            </section>
+            <section class="post">
+                <a class="anchor" id="tyokokemus_section"></a>
+                <h2>Työkokemus</h2>
+                <div class="sectionItem">
+                    <h3>Työntekijä perheyrityksessä, Desomatic Oy</h3>
+                    <p>2013-2016</p>
+                    <p>Työnkuva oli hyvin laaja sisältäen kaikenlaista hitsaamisesta maalaamiseen ja IT-tukeen. Tänä
+                        aikana opin myös työnantajan ja yrittäjän näkökulmaa työhön.</p>
+                </div>
+                <div class="sectionItem">
+                    <h3>Talonmies Kuortin koulussa, Pertunmaan kunta</h3>
+                    <p>2012-2013</p>
+                    <p>Vakituisen talonmiehen sijaisena viikonloppuisin ja lomaikoina. Työtehtäviin kuului muunmuassa
+                        rakennuksen lämmittäminen, lumityöt ja tilojen tarkastus ongelmien varalta. Työ oli hyvin
+                        itsenäistä ja vastuullani oli pitää puulämmitteinen rakennus ja sen asukkaat lämpimänä
+                        ympäri vuorokauden talvikuukausina.</p>
+                </div>
+            </section>
+            <section class="post">
+                <a class="anchor" id="koulutus_section"></a>
+                <h2>Koulutus</h2>
+                <div class="sectionItem">
+                    <h3>Tietojenkäsittelyn tradenomi, Jyväskylän ammattikorkeakoulu JAMK</h3>
+                    <p>2016-</p>
+                    <p>Arvioitu valmistuminen 2020 jälkipuoliskolla</p>
+                </div>
+                <div class="sectionItem">
+                    <h3>Fysiikan opintoja, Jyväskylän yliopisto</h3>
+                    <p>2015-2016</p>
+                    <p>Kursseja fysiikasta, matematiikasta ja ohjelmoinnista kielenä C#. Opinnot keskeytetty alanvaihdon
+                        takia.</p>
+                </div>
+                <div class="sectionItem">
+                    <h3>Aliupseerikurssi, Puolustusvoimat</h3>
+                    <p>2014</p>
+                    <p>Ryhmänjohtajakoulutus sekä kokemusta erilaisten ihmisten johtamisesta sotilas ympäristössä.</p>
+                </div>
+                <div class="sectionItem">
+                    <h3>Ylioppilastutkinto, Heinolan lukio</h3>
+                    <p>2010-2013</p>
+                    <p></p>
+                </div>
+            </section>
+
+            <section class="post">
+                <a class="anchor" id="harrastukset_section"></a>
+                <h2>Harrastukset</h2>
+
+            </section>
+
+
+        </div>
+        <footer>
+            <p>&copy; copyright by Jon Pekkonen</p>
+            <p>Päivitetty: 2019-11-30 </p>
+        </footer>
+    </div>
 </body>
+
 </html>
