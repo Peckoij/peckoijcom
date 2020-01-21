@@ -107,22 +107,26 @@ a:visited {
 }
 
 a:hover {
-	color: #fff;
+	color: #bbb;
 	text-decoration: none;
 }
 
 a:active {
-	color: #fff;
+	color: #bbb;
 	text-decoration: none;
 }
 
 a:focus {
-	color: #fff;
+	color: #bbb;
 	text-decoration: none;
 }
 
-/* Style for link which is inline so it stands out */
-.inlineLink:link {
-	color: #bbb;
-	text-decoration: underline;
+/* Style for inline */
+p a:link {
+	color: #bbf;
+	text-decoration: none;
+}
+p a:visited {
+	color: #bbf;
+	text-decoration: none;
 }
