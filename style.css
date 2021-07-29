@@ -21,6 +21,7 @@ nav {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 1);
 	z-index: 2;
+
 }
 
 nav li {
@@ -30,10 +31,25 @@ nav li {
 }
 
 nav ul {
-	margin: 0.2rem auto;
+	padding: 0.2rem 0% 0.2rem 10%;
 	text-align: center;
-	padding: 0px;
+	margin: 0px;
 	min-width: 295px;
+	max-width: 80%;
+
+}
+
+#flagContainer{
+	position:fixed;
+	top: 0;
+	right:0;
+	margin: 0 ;	
+	max-width: 15%;
+}
+.langFlag{
+	padding:0.5rem 0.2rem 0rem 0rem;
+	width:3rem;
+	
 }
 
 header h1 {
